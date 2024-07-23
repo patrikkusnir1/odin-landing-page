@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* RESET CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+/* BASIC CSS STYLES */
+.wrapper {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wrapper,
+.footer {
+  background-color: #1f2937;
+}
+
+.hero {
+  align-self: center;
+}
+
+ul {
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+li a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 18px;
+
+}
+
+.header {
+  color: #f9faf8;
+  font-size: 24px;
+  margin: 20px 30px
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero .container .left-side {
+  flex-grow: 2;
+}
+
+/* add hero photo positioning */
+
+
+
+.left-side .title {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+
+.left-side .secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.left-side button {
+  background-color: #3882f6;
+  font-size: 18px;
+  color: #e5e7eb;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.left-side>* {
+  padding-bottom: 20px;
+}

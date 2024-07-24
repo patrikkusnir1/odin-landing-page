@@ -14,7 +14,7 @@ body {
 
 /* BASIC CSS STYLES */
 .wrapper {
-  height: 85vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -35,7 +35,7 @@ ul {
 
 nav ul {
   display: flex;
-  gap: 10px;
+  gap: 30px;
 }
 
 li a {
@@ -68,11 +68,24 @@ li a {
 }
 
 .hero .container .left-side {
-  flex-grow: 2;
+  /* flex-grow: 2; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
 }
 
 /* add hero photo positioning */
+.right-side {
+  display: flex;
+}
 
+.img-hero {
+  align-items: start;
+  bottom: 125px;
+  position: relative;
+  left: 50px;
+}
 
 
 .left-side .title {
@@ -94,6 +107,8 @@ li a {
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
+  flex-grow: 0;
+  max-width: 30%;
 }
 
 

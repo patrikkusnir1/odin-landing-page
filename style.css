@@ -115,3 +115,39 @@ li a {
 .left-side>* {
   padding-bottom: 20px;
 }
+
+.about .container .info-cards {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 70px;
+
+}
+
+.about .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border: 3px solid #3882f6;
+  padding: 20px;
+  border-radius: 5px;
+  flex-basis: 200px;
+  text-align: center;
+  color: #1f2137;
+}
+
+.about .container h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: extra-bold;
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
